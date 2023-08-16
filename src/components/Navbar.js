@@ -25,27 +25,26 @@ const themeMode =()=>{
 const refAbout = useRef(null);
 const ScrlAbout = () => {
     refAbout.current?.scrollIntoView({behavior: 'smooth'});
+    document.title = "PortFolio - About"
     };
 
 const refTest = useRef(null);
 const ScrlTest = () => {
     refTest.current?.scrollIntoView({behavior: 'smooth'});
+    document.title = "PortFolio - Testimonial"
     };
 
 const refSer= useRef(null);
 const ScrlSer = () =>{
     refSer.current?.scrollIntoView({behavior: 'smooth'});
+    document.title = "PortFolio - Services"
 }
 
 const refCon= useRef(null);
 const ScrlCon = () =>{
     refCon.current?.scrollIntoView({behavior: 'smooth'});
+    document.title = "PortFolio - Contact US"
 }
-
-// const refBlog = useRef(null);
-// const ScrlBlog =()=>{
-//     refBlog.current?.scrollIntoView({behavior:'smooth'});
-// }
 return (<>
          <nav  className={`navbar navbar-${mode} bg-${mode} fixed-top`}>
             <div className="container-fluid">

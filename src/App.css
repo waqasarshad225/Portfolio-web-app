@@ -1,0 +1,592 @@
+/* main heading fonts pick from google font */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Rubik:wght@500&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+}
+
+body{
+  background: black;
+  color: #fff;
+}
+
+
+.my-Left a i {
+  color: #ff5823;
+  font-size: 40px;
+  margin: 10px;
+  border: 2px solid #ff5823 ;
+  padding: 8px;
+  border-radius: 50%;
+  width: 58px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.my-Left a i:hover{
+  color: rgb(255, 255, 255);
+}
+
+.myRight{
+  margin-right: 50px;
+}
+
+.myRight img{
+  height: 485px;
+  width: 430px;
+  padding: 20px;
+  /* border: 5px solid #ff5823; */
+  border-radius: 50%;
+  box-shadow: 0 1px 0px 0px #ff5823;
+}
+
+.myRight img:hover{
+  transform: scale(1.07);
+  transition: 1s ease;
+}
+
+.hero-image{
+  background-color: black;
+  height:100vh;
+  margin-top: 50px;
+}
+
+.hero-Sub{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: inherit;
+}
+
+.myBtn{
+  border: none;
+  background-color: #ff5823;
+  color: #fff;
+  border: 1px solid #ff5823;
+  padding: 10px;
+  width: 175px;
+  font-weight: 600;
+  border-radius: 15px;
+  transition: 0.5s;
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+
+.myBtn:hover{
+  background-color: rgb(255, 255, 255);
+  color: #ff5823;
+}
+
+
+
+.myLeft h1{
+  color: #ff5823 !important;
+}
+
+.navbar-brand{
+  color: #ff5823;
+  font-size: 30px;
+}
+
+
+
+
+.offcanvas-title{
+  color: #ff5823;
+}
+
+
+
+
+
+
+
+
+/* ---------------------- About Section--------------------------  */
+
+
+
+
+.bg-body-tertiary{
+  background: black !important;
+}
+
+
+.text-body-secondary {
+  --bs-text-opacity: 1;
+  color: rgb(250 252 255 / 75%)!important;
+}
+
+.btn{
+  background: #ff5823 !important;
+  border: 1px solid #ff5823 !important;
+}
+
+.fw-light{
+  font-size: 30px;
+}
+
+
+.rounded {
+  /* border-radius: var(--bs-border-radius)!important; */
+  border: 1px solid black;
+  border-radius: 50% !important;
+  width: 175px;
+  height: 170px;
+  font-weight: 600 !important;
+}
+
+
+
+#about-h{
+  margin-top: 60px;
+  margin-bottom: 40px;
+  color: #ff5823;
+}
+
+
+.card-body{
+  background: #292727;
+  border-bottom: 5px solid #ff5823;
+}
+
+.card-text{
+  color: rgb(209, 208, 208);
+  text-shadow: 2px 2px 4px #000000;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+ 
+}
+
+
+.shadow-sm{
+  border: 1px solid black;
+}
+
+
+#card-icon{
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  align-items: center;
+  font-size: 90px;
+  color: #fff;
+  background: #292727;
+  
+}
+
+#card-icon-T{
+  display: flex;
+  background: #292727;
+  justify-content: center;
+  color: #ff5823;
+}
+
+.bg-body-tertiary{
+  margin-top: -50px;
+}
+
+
+
+
+
+
+/* -------------------------- Testimonials section------------------- */
+
+
+#T-heading{
+  display: flex;
+  justify-content: center;
+  color: #ff5823;
+}
+
+
+#T-comment{
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  margin-bottom: 100px;
+  
+
+}
+
+#client1-img{
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 145px;
+  border: 2px solid rgb(7, 7, 7);
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  margin-bottom: 8px;
+}
+
+
+#T-card{
+  background: #292727;
+  color: #d1d0d0;
+  border: 1px solid #565656;
+  padding: 20px;
+}
+
+
+#T-para{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-kerning: normal;
+  margin-bottom: 20px;
+
+}
+
+
+#T-client{
+  display: flex;
+  color: #ed2727;
+  padding: 0 10px;
+}
+
+
+
+
+
+/* ----------------- Services section --------------------- */
+
+
+
+#S-h1{
+  display: flex;
+  justify-content: center;
+  color: #ff5823;
+}
+
+#service-para{
+ margin-bottom: 0 ;
+  color: rgb(250 252 255 / 75%)!important;
+}
+
+
+#services-btn{
+  color: #fff ;
+}
+
+
+/* ------------------------  Card Image------------------- */
+
+#img-card{
+  background-image: cover;
+  height: 210px;
+  width: 390px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+#service-body-card{
+  height: auto;
+  
+}
+
+
+
+/* ------------model box css------------- */
+
+.modal-box{
+  width: 100vw;
+  height: 100vh;
+  background-color: #000000bf;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  top: 0;
+}
+
+.model-box-body{
+  width: 500px;
+  height: 500px;
+  border-radius: 12px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  color: #000000;
+}
+.model-box-body h1{
+  display: inline-block;
+  font-size: 1.7rem;
+  margin-top: 10px;
+  text-align: center;
+}
+.closeBtn{
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.model-box-body p{
+  flex: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.model-box-footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+/* ----------------------------- Contact Page------------------------------------ */
+
+
+.m-login-body{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+.m-login-box{
+  background: #292727;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 760px;
+  padding: 40px;
+  /* box-shadow: rgba(237, 237, 237, 0.2) 0px 7px 29px 0px; */
+  justify-content: center;
+  border: 2px solid #565656;
+  border-radius: 8px;
+}
+.m-login-box input[type="email"], input[type="text"]{
+  padding: 10px;
+  border: 1px solid black;
+  /* border-bottom: 1px solid #ff5823; */
+  margin-bottom: 10px;
+  background: black;
+  border-radius: 5px;
+  color: #fff;
+}
+.m-login-body h1{
+  margin-bottom: 20px;
+  color: #ff5823;
+}
+
+.m-login-box textarea{
+  padding: 10px;
+  border: 1px solid black;
+  background:#000;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.m-login-box input:focus,textarea:focus{
+  outline: none;
+  border:1px solid #ff5823;
+  color: #fff;
+}
+.m-login-box input:active,textarea:active{
+  background: #000;
+  color: #fff;
+}
+
+
+.conatct-submit{
+  border: none;
+  background-color: #ff5823;
+  color: #fff;
+  border: 1px solid #ff5823;
+  padding: 10px;
+  font-weight: 600;
+  border-radius: 15px;
+  transition: 0.5s;
+  margin-top: 20px;
+  letter-spacing: 2px;
+
+}
+
+
+.conatct-submit:hover{
+  background: #fff;
+  color: #ff5823;
+}
+
+
+#c-comment{
+  font-family: 'Rubik';
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+
+/* ------------------------------ Blog ----------------------------- */
+
+
+
+.Blog-card{
+  /* border: 1px solid gray; */
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(241, 240, 240, 0.2), 0 6px 20px 0 rgba(252, 248, 248, 0.19);
+  margin-bottom: 20px;
+  background: #000000;
+  color: #fff;
+} 
+
+.blog-auther{
+  display: flex;
+  justify-content: space-between;
+  color: rgba(141, 141, 141, 0.956);
+}
+.card h1{
+  text-transform: capitalize;
+}
+
+#B-h1{
+  margin-bottom: 20px;
+  color: #ff5823;
+  text-align: center;
+  margin-bottom: 20px;
+  display: block;
+}
+
+#B-h1:hover{
+  color: #fff;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------- Media Queries------------------------------- */
+
+
+
+@media screen and (max-width: 500px) {
+  .hero-image{
+    margin-top: 150px;
+  }
+  .about-main{
+    margin-top: 100px;
+  }
+  .hero-Sub{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .myRight{
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+  .myRight img{
+    width: 400px;
+  }
+  .m-login-box{
+    width: 100%;
+  }
+  #img-card{
+    width: 100%;
+  }
+  .myRight img{
+    width: 100%;
+    height: auto;
+  }
+
+}
+
+
+/* animation text */
+
+#home-head-h1, .myRight img{
+  position: relative;
+  animation: myfirst 5s 1;
+  animation-direction: alternate;
+}
+
+#home-head-h2 {
+  position: relative;
+  animation: head-h2 5s 1;
+  animation-direction: alternate;
+}
+
+#home-head-span {
+  position: relative;
+  animation: head-span 5s 1;
+  animation-direction: alternate;
+}
+
+.fa, .animBtn {
+  position: relative;
+  animation: head-span 5s 1;
+  animation-direction: alternate;
+}
+
+@keyframes myfirst {
+  0%   {left: 100px; top: 0px;}
+  25%  {left: 0px; top: 0px;}
+
+}
+
+@keyframes head-h2 {
+  0%   {right: 100px; top: 0px;}
+  25%  {right: 0px; top: 0px;}
+
+}
+
+@keyframes head-span {
+  0%   {left: 0px; top: 100px;}
+  25%  {left: 0px; top: 0px;}
+
+}
+
+
+/* Footer */
+footer{
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #565656;
+  margin-top: 20px;
+}
+footer .contex a{
+  text-decoration: none;
+  color: #ff5823;
+  transition: 0.3s;
+}
+footer .contex a:hover{
+  color: #fff;
+}
+footer p{
+  color: #565656;
+}
